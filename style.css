@@ -1,0 +1,155 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+
+
+
+.menu button img{
+    vertical-align: middle;
+}
+
+.menu button{
+    background-color: #fff;
+    color: #000;
+    text-decoration: n;
+    border: 0;
+    transition: opacity 0.2s ease;
+    font-size: medium;
+}
+
+.menu button:hover{
+    opacity: 0.6;
+}
+
+.Section-content{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    position: relative;
+    z-index: 2; /* Higher than image */
+}
+
+.floating-img {
+  position: absolute;
+  z-index: 0; /* Lower */
+}
+
+.welcome {
+    position: relative;
+    display: inline-block;
+}
+
+.welcome img{
+    height: 100%;
+    width: 100%;
+}
+
+.welcome button{
+    font-size: large;
+    font-weight: 500;
+   position: absolute;
+   bottom: 9%;
+   top: 83%;
+   left: 50%;
+   right: 42%;
+   transform: translateX(-50%);
+   padding: 10px 20px;
+   border-radius: 20%;
+   cursor: pointer;
+}
+
+.price{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.blank{
+    height: 140px;
+    background-color: black;
+}
+
+.highlights{
+    background-color: #1C1C1C;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 800px;
+    background-color: #1C1C1C;
+    color: #fff;
+    padding: 40px;
+}
+
+.header h1{
+    margin: 0;
+    text-align: left;
+}
+
+.link{
+    color: blue;
+    font-size: x-large;
+}
+
+.slider{
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 1200px; /* 3 slides x 400px each */
+  margin: auto;
+  border: 1px solid red;
+}
+
+.slide{
+    min-width: 700px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.Section-content a{
+    text-decoration: none;
+}
+
+.learn img{
+    width: 100%;
+}
+
+.macbook{
+    background-color: #f2f8fc;
+    height: 750px;
+    width: 1680px;
+    font-weight: 650;
+    text-align: center;
+    padding-top: 40px ;
+    padding-bottom: 10px;
+}
+
+.macbook h3{
+    font-weight: 500;
+}
+
+.macbook button{
+    border-radius: 25px;
+    font-size: larger;
+    font-weight: 500;
+    padding: 7px 23px;
+    margin: 10px;
+}
